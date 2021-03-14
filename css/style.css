@@ -1,0 +1,218 @@
+/* font family */
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif; */
+
+
+/* common start */
+*{
+    margin: 0;
+    padding: 0;
+}
+p, ul{
+    margin-bottom: 0;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7d859f;
+}
+input:focus, button:focus, a:focus{
+    box-shadow: none !important;
+    outline: 0;
+}
+/* common end */
+
+/* header start */
+.home{
+    background-image: url(../image/hero.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 20px;
+    min-height: 100vh;
+    position: relative;
+}
+.p_ab{}
+.menu  a{
+    margin: 0 16px;
+    font-size: 14px;
+    color: #fff !important;
+    padding: 10px 15px !important;
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.menu a span{
+    padding-left: 5px;
+}
+.menu  a:hover{
+    border: 1px solid #002bb7;
+    background-color: #002bb7;
+    border-radius: 20px;
+}
+.h_end a{
+    margin-left: 25px !important;
+    margin-right: 0px !important;
+}
+.h_end i{
+    margin-right: 5px;
+}
+.t_gle_a::after,
+.d_search_a::after {
+    display: none;
+}
+.d_search_ul{
+    left: -245px;
+    background-color: transparent;
+    border: none;
+}
+.c_btn{
+    color: #fff !important;
+    border-color: #fff !important;
+}
+.c_btn:hover {
+    background-color: #002bb7;
+}
+.t_gle_a{
+    transition: .7s;
+}
+.bar {
+    background: #fff;
+    display: block;
+    width: 25px;
+    height: 1px;
+    margin: 7px 0;
+}
+.t_gle_ul {
+    left: -102px;
+    min-width: 9rem;
+    background-color: transparent;
+    border: none;
+}
+.t_gle_ul a {
+    margin: 5px 0;
+    color: #ffffff !important;
+    display: inline-block;
+    border: 1px solid #002bb7;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.t_gle_ul a:hover{
+    background-color:  #002bb7;
+    border: 1px solid #002bb7;
+    border-radius: 20px;
+}
+
+/* banner start */
+.b_content h1{
+    margin-top: 100px;
+    margin-bottom: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.b_content h2{
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.custom_button{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px !important;
+    font-weight: 500;
+    color: #ffffff !important;
+    width: 140px;
+    height: 50px;
+    z-index: 1;
+    padding: 0 10px;
+    border: 1px solid #002bb7;
+    background-color: transparent;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.1s all ease;
+}
+.custom_button::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #002bb7;
+    z-index: -1;
+    transition: 0.7s ease;
+}
+
+.c_button::before{
+    width: 100%;
+    height: 0;
+}
+.c_button:hover::before{
+    height: 100%;
+} 
+/* banner end*/
+.overlay{
+    position: absolute;
+    top: 71.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay2{
+    position: absolute;
+    top: 78%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay3{
+    position: absolute;
+    top: 84.5%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay4{
+    position: absolute;
+    top: 77%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay5{
+    position: absolute;
+    top: 85%;
+    left: 84%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay6 {
+    position: absolute;
+    top: 88%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay7 {
+    position: absolute;
+    top: 93%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay8 {
+    position: absolute;
+    top: 94%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.overlay img, .overlay2 img, .overlay3 img, .overlay4 img, .overlay5 img, .overlay6 img, .overlay7 img, .overlay8 img{
+    width: 70%;
+    margin: auto;
+}
+/* header end */
